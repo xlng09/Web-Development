@@ -22,5 +22,4 @@ ul{font-family: Comic Sans MS;}
 Hint:  You can specify several CSS rules for one element by separating the rules with commas.  Look at some example on w3schools */
 div{background-color: blue;
 color: white;
-font-weight: bold;
-}
+font-weight: bold;}
