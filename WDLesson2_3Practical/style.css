@@ -2,13 +2,13 @@
 /* Challenge 4: Change the radius of the borders of all images to 20px */
 img{border-radius: 20px;}
 /* Challenge 5: Change the width of the image with an id of "banner" to 95% */
-#banner{width: 95%;}
+#banner{width: 100%;height: auto;}
 /* Challenge 6: For the HTML element with an id of "bannerSeparator" change the,
                 1) height to 10px
                 2) border to 0px, solid and white
                 3) background image to  linear-gradient(to right, blue, white)
 */
-#bannerSeparator{height:10px;border: width 0px solid white;background-image: linear-gradient(to right,blue,white);}
+#bannerSeparator{height:10px;border: width 0px solid white;background-image: linear-gradient(to right,rgb(252, 176, 233),rgb(254, 255, 225),rgb(255, 190, 190),rgb(255, 234, 177));}
 /* Challenge 7: For the HTML element with an id of "logo_container" align the text in the center */
 #logo_container{text-align: center;}
 /* Challenge 8: Change the height of all images with a class of "logo" to 200px*/
@@ -17,8 +17,9 @@ img{border-radius: 20px;}
 div{padding: 40px;}
 /* Challenge 10: For the HTML element with an id of "main_container" change 
                 1) the size of the font to 24pt, 
-                2) family of font to "Arial", 
+                2) family of font to"Arial", 
                 3) color of the background to rgb(0,0,255)  
                 4) color of the text to white for the  white
 */
-#main_container{font-size: 24px;font-family:Arial;background-color: rgb(0, 0, 255);color:white}
+#main_container{font-size: 24px;font-family:'Times New Roman', Times, serif;background-image: linear-gradient(to left,rgb(255, 195, 240),rgb(255, 212, 212),rgb(212, 232, 255),rgb(254, 255, 225));color:white}
+html{background-image: linear-gradient(to left,rgb(255, 225, 225),rgb(255, 255, 255),rgb(255, 225, 225));}
